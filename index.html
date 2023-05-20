@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>f2-contest</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overall">
+    <div class="container">
+    <nav class="navbar">
+        <div class="com-name">
+            <h3>Library System</h3>
+        </div>
+        <div class="com-info">
+            <h3><a href="#tab">Books</a></h3>
+            <h3><a href="#regi">Register</a></h3>
+            <h3>Contact us</h3>
+            <h3>Logout</h3>
+        </div>
+</nav>
+</div>
+        <div class="tables" id="tab">
+            <div class="book" > <h1>Books</h1>
+            <table>
+                <tr>
+                    <th>Book Id</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th><a href="">Book Title 1</a><br>
+                        <ul>
+                            <li>Publication Date:2000</li>
+                            <li>Page Content:250</li>
+                            <li>ISBN:123 4567890123</li>
+                        </ul>
+                    </th>
+                    <th>Author Name 1</th>
+                    <th>Genre 1</th>
+                    <th>Available</th>
+                </tr>
+                    <tr>
+                        <th>2</th>
+                        <th><a href="">Book Title 2</a><br>
+                            <ul>
+                                <li>Publication Date:2005</li>
+                                <li>Page Content:300</li>
+                                <li>ISBN:123-4567890456</li>
+                            </ul>
+                        </th>
+                        <th>Author Name 2</th>
+                        <th>Genre 2</th>
+                        <th>Available</th>
+                </tr>
+                    <tr>
+                        <th>3</th>
+                        <th><a href="">Book Title 3</a><br>
+                            <ul>
+                                <li>Publication Date:2010</li>
+                                <li>Page Content:350</li>
+                                <li>ISBN:123-4567890789</li>
+                            </ul>
+                        </th>
+                        <th>Author Name 3</th>
+                        <th>Genre 3</th>
+                        <th>Available</th>
+                    </tr>
+            </table>
+        </div>
+        </div>
+        <div class="forms" id="regi">
+            <div class="register">
+                <br><br><h1>Register</h1><br><br>
+                <form action="http://127.0.0.1:5500/f2%20contest/?">
+                    <div class="reg">
+                       &nbsp; <b>First Name:*</b> <br>
+                        <input type="text" class="box" placeholder="Enter First Name" required>
+                    </div>
+                    <div class="reg">
+                        &nbsp; <b>Last Name:*</b> <br>
+                        <input type="text" class="box" placeholder="Enter Last Name" required>
+                    </div>
+                    <div class="reg">
+                        &nbsp; <b>Date of Birth:*</b> <br>
+                        <input type="date" class="box" required>
+                    </div>
+                    <div class="reg">
+                        &nbsp; <b>Age:*</b> <br>
+                        <input type="Number" class="box" placeholder="Enter Age" min="5" max="100" required>
+                    </div>
+                    <div class="reg">
+                        &nbsp; <b>E-mail:*</b> <br>
+                        <input type="email" class="box" placeholder="Enter mail" required>
+                    </div>
+                    <div class="reg">
+                        &nbsp; <b>Enter Password:*</b> <br>
+                        <input type="password" class="box" placeholder="Enter Password" required>
+                    </div>
+                    <div class="reg">
+                        &nbsp; <b>Confirm Password:*</b> <br>
+                        <input type="password" class="box" placeholder="Re-enter Password" required>
+                    </div>
+                    <div class="reg">
+                        <input type="submit" class="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
